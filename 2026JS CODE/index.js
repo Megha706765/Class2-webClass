@@ -6,3 +6,13 @@ console.log("Print reverse number :");
 for(let j=6; j>=1; j--){
     console.log(j+" ");
 }
+let age = 13;
+if(age>=18){
+    console.log("You can vote");
+    console.log("You can drive");
+}
+if(age<18){
+    console.log("You cannot vote");
+}
+let firstName = "Megha";
+console.log(`Welcome ${firstName}`);
