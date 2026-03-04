@@ -16,3 +16,10 @@ if(age<18){
 }
 let firstName = "Megha";
 console.log(`Welcome ${firstName}`);
+
+let age2child = 26;
+if(age2child < 18){
+    console.log("You cannot vote");
+}else{
+    console.log("you can vote");
+}
