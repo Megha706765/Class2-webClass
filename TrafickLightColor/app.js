@@ -1,11 +1,13 @@
-let color = "red";
+let color = " ";
 //Traffic light  System
 if(color === "red"){
     console.log("Stop! light color is red.");
 }
-if(color === "green"){
+else if(color === "green"){
     console.log("go light color is green.");
 }
-if(color === "yellow"){
+else if(color === "yellow"){
     console.log("slow down light color is yellow.");
+}else{
+    console.log("traffic light is broken");
 }
